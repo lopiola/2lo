@@ -1,0 +1,14 @@
+Zagadka z upuszczaniem jajka
+----------------------------
+
+Stoimy przed 100-piętrowym budynkiem i mamy do dyspozycji dwa jajka. Naszym zadaniem jest znaleźć najwyższe piętro, z którego można zrzucić jajko tak, aby się nie rozbiło - i zrobić to w jak najmniejszej ilości upuszczeń. Założenia są następujące:
+
+1) Wszystkie jajka mają taką samą wytrzymałość
+2) Jajko, które przeżyje upadek może być użyte znowu, taki upadek nie wpływa na jego wytrzymałość
+3) Rozbite jajko musi zostać odrzucone
+4) Jeśli jajko rozbije się spadając z danego piętra, rozbije się również spadając z wyższego
+5) Jeśli jajko przeżyje spadając z danego piętra, przeżyje również spadając z niższego
+
+Program powinien zwrócić jedną liczbę - najmniejszą możliwą liczbę upuszczeń potrzebną aby ustalić wytrzymałość jajek.
+
+Napisz program rozwiązujący powyższe zadanie. Jeśli jeszcze tego nie zrobiłes, przerób swój program tak, aby działał na liczbach ogólnych (N jajek, K pięter).
