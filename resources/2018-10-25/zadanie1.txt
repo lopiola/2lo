@@ -1,0 +1,27 @@
+s = "Jaki powinien byc ten napis?"
+
+# Powinien byc dlugi na 17 znakow
+print("Dlugosc napisu = {}".format(len(s)))
+
+# Pierwsza litera 'a' w tekscie powinna miec indeks nr 1
+print("Indeks pierwszej litery 'a' = {}".format(s.index("a")))
+
+# W napisie musza byc dwie litery 'a'
+print("'a' wystepuje {} razy".format(s.count("a")))
+
+# Dzielenie napisu na kawalki
+print("Pierwszych piec znakow to {}".format(s[:5]))
+print("Nastepne piec znakow to {}".format(s[5:10]))
+print("Dwunastym znakiem jest {}".format(s[12]))
+
+print("Ostatnie piec znakow to {}".format(s[-5:]))
+
+# Zamien wszystkie male litery na duze
+print("Uzywajac duzych liter: {}".format(s.upper()))
+
+# Zamien wszystkie litery na male
+print("Uzywajac malych liter: {}".format(s.lower()))
+
+# Rozdziela napis na trzy czesci,
+# z ktorych kazda zawiera tylko jedno slowo
+print("Napis rozdzielony na slowa: {}".format(s.split(" ")))
