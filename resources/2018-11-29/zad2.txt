@@ -1,0 +1,24 @@
+
+
+import time
+import random
+
+def sort(elements):
+  #tutaj kod
+
+
+#ponizej kod generujacy dane i uruchamiajacy algorytm
+tab = []
+size = 10000
+for i in range(size):
+  tab.append(random.randint(0,size))
+
+
+start = time.time() 
+result = sort(tab)
+stop = time.time()
+elapsed = stop - start
+print("Time: {}".format(elapsed))
+
+
+
