@@ -1,0 +1,30 @@
+import time
+import random
+
+def binarySearch(elements, elementToFind, first, last):
+  #tutaj napisz swoj kod
+
+def linearSearch(elements, elementToFind):
+  #tutaj napisz swoj kod
+
+#ponizej kod generujacy dane i uruchamiajacy algorytmy
+tab = []
+size = 1000
+for i in range(size):
+  tab.append(random.randint(0,size))
+tab.sort()
+
+elementToFind = tab[random.randint(0,size)]
+start = time.time() 
+result = binarySearch(tab, elementToFind, 0, len(tab))
+stop = time.time()
+elapsed = stop - start
+print(result)
+print("Time: {}".format(elapsed))
+
+start = time.time() 
+result = linearSearch(tab, elementToFind)
+stop = time.time()
+elapsed = stop - start
+print(result)
+print("Time: {}".format(elapsed))
